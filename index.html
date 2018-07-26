@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Word</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="site-name">
+	<h1>My Word</h1>	
+	<p><b>This web site give you the best tools to manipulate your texts</b></p>
+	</div>
+
+	<div class="main-bar">
+		<div class="box">
+			<button class="button" id="bold"> <b>B</b> </button>	
+			<button class="button" id="italic"> <b>I</b> </button>	
+			<button class="button" id="underl"> <b>U</b> </button>
+			<button class="button" id="reset"> <b>N</b> </button>	
+		</div>	
+
+		<div class="lst">
+				<form name="f">	
+					<select id="style" size="1" name="txts">
+					<option>Normal</option>
+					<option>Arial</option>
+					<option>Sans Serif</option>
+					</select>
+
+					<select id="size" size="1" name="txtn">
+					<option>10</option>
+					<option>20</option>
+					<option>40</option>
+					</select>
+				</form>	
+		</div>
+	</div>
+
+	<div class="container">
+	 <textarea id="textzone" >You can type here</textarea> 
+	 	<div class="des">
+	 		<img  id="desim" src="res/loop.jpg" width="92px">
+	 		<textarea id="des" rows="6" name="des" cols="40"></textarea> 
+		</div>
+		<h3>Copyrights 2018-2019</h3>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>
